@@ -14,7 +14,37 @@
         <div class="calculator">
             <input type="text" class="input" id="input" readonly>
             <div class="calculator-row">
-                
+
+                <div class="element" onclick="addToInput('7')">7</div>
+     <div class="element" onclick="addToInput('8')">8</div>
+     <div class="element" onclick="addToInput('9')">9</div>
+   </div>
+   <div class="calculator-row">
+     <div class="element" onclick="addToInput('4')">4</div>
+     <div class="element" onclick="addToInput('5')">5</div>
+     <div class="element" onclick="addToInput('6')">6</div>
+   </div>
+   <div class="calculator-row">
+     <div class="element" onclick="addToInput('1')">1</div>
+     <div class="element" onclick="addToInput('2')">2</div>
+     <div class="element" onclick="addToInput('3')">3</div>
+   </div>
+   <div class="calculator-row">
+     <div class="element" onclick="addToInput('0')">0</div>
+     <div class="element" onclick="addToInput('.')">.</div>
+     <div class="element" onclick="clearInput()">C</div>
+   </div>
+   <div class="calculator-row">
+     <div class="element" onclick="addToInput('+')">+</div>
+     <div class="element" onclick="addToInput('-')">-</div>
+     <div class="element" onclick="addToInput('*')">*</div>
+   </div>
+   <div class="calculator-row">
+     <div class="element" onclick="addToInput('/')">/</div>
+     <div class="element" onclick="calculate()">=</div>
+   </div>
+   <div class="result" id="result"></div>
+
             </div>
         </div>
         
