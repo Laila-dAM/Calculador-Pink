@@ -21,3 +21,12 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+.calculator-row .element {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f3d7ca;
+    border-radius: 5px;
+    cursor: pointer;
+}
