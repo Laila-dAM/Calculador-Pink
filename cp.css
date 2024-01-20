@@ -10,3 +10,8 @@ body {
     border-radius: 10px;
     padding: 20px;
 }
+
+.logo {
+    text-align: left;
+    margin-bottom: 20px;
+}
